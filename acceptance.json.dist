@@ -1,0 +1,22 @@
+{
+    "canonical_repo": "/path/to/canonical/repo",
+    "branch_filter": "MYJIRAPREFIX-",
+    "ssh_private_key": "/path/to/.ssh/id_rsa",
+    "repo_dir": "/path/to/working/directory",
+    "web_root": "/var/www",
+    "build_dir": "web",
+
+    "database_user": "root",
+    "database_password": "hunter2",
+
+    "phing_targets": [
+        "install",
+        "create-demo-users"
+    ],
+    "phing_properties": {
+        "drupal.db.name": "${database_name}",
+        "drupal.db.user": "${database_user}",
+        "drupal.db.password": "${database_password}",
+        "drush.verbose": "yes"
+    }
+}

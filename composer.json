@@ -1,0 +1,15 @@
+{
+    "name": "pfrenssen/acceptancebuilder",
+    "authors": [
+        {
+            "name": "Pieter Frenssen",
+            "email": "pieter@frenssen.be"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "cpliakas/git-wrapper": "dev-master",
+        "symfony/process": "~2.7",
+        "composer/composer": "^1.0@dev"
+    }
+}
